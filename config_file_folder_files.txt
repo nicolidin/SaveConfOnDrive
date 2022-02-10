@@ -1,0 +1,5 @@
+/home/nicolas/.zshrc
+/home/nicolas/.config/i3
+/home/nicolas/.config/kitty
+/home/nicolas/.config/nvim
+
