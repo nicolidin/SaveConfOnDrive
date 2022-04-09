@@ -34,4 +34,6 @@ dconf dump / > dconf-settings.ini
 
 gio copy dconf-settings.ini "$(printenv google_drive_path)/linux-script-save"
 
+# dconf load / < dconf-settings.ini # to apply it
+
 gio list -d "$(printenv google_drive_path)/linux-script-save"
