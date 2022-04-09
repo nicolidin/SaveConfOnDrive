@@ -1,3 +1,4 @@
 /home/nicolas/.zshrc
 /home/nicolas/.config/kitty
 /home/nicolas/.config/nvim
+/home/nicolas/.config/JetBrains

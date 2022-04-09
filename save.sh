@@ -30,4 +30,8 @@ while read -r line;
 		done < config_file_folder_files.txt;
 
 gio copy *.tar.gz "$(printenv google_drive_path)/linux-script-save"
+dconf dump / > dconf-settings.ini
+
+gio copy dconf-settings.ini "$(printenv google_drive_path)/linux-script-save"
+
 gio list -d "$(printenv google_drive_path)/linux-script-save"
